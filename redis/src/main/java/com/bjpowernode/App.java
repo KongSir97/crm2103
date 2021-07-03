@@ -6,7 +6,7 @@ public class App
 {
     public static void main( String[] args )
     {
-
+        //修改文件
         Jedis jedis=new Jedis("127.0.0.1",6379);
         //删除所有db
         jedis.flushAll();
